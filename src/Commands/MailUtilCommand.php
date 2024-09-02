@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace mindtwo\MailUtil\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MailUtilCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'mail-util';
 
     public $description = 'My command';
 
