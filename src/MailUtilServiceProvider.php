@@ -2,9 +2,9 @@
 
 namespace mindtwo\MailUtil;
 
+use mindtwo\MailUtil\Commands\MailUtilCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use mindtwo\MailUtil\Commands\MailUtilCommand;
 
 class MailUtilServiceProvider extends PackageServiceProvider
 {

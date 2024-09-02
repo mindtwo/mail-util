@@ -3,8 +3,8 @@
 namespace mindtwo\MailUtil\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use mindtwo\MailUtil\MailUtilServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
